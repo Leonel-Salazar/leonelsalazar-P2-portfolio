@@ -1,0 +1,228 @@
+---
+title: "Data Exercise"
+---
+
+
+```{r}
+
+# Load required packages
+library(ggplot2)  # For advanced plotting
+library(dplyr)    # For data manipulation
+library(tidyr)    # For data tidying
+library(tidyverse)
+
+```
+
+
+
+# Set seed for reproducibility
+
+```{r}
+
+set.seed(789)
+
+```
+
+
+# Number of observations
+
+```{r}
+
+n <- 3000
+
+```
+
+
+# Generate variables
+
+```{r}
+
+Gender <- sample(c("Male", "Female"), n, replace = TRUE)
+Age <- round(rnorm(n, mean = 45, sd = 10))
+Income <- round(rnorm(n, mean = 60000, sd = 20000))
+Education <- sample(c("High School", "Bachelor's", "Master's", "PhD"), n, replace = TRUE, prob = c(0.25, 0.4, 0.25, 0.1))
+HomeOwner <- sample(c("Yes", "No"), n, replace = TRUE, prob = c(0.7, 0.3))
+Retired <- sample(c("Yes", "No"), n, replace = TRUE, prob = c(0.15, 0.85))
+
+```
+
+
+# Combine into a data frame
+
+```{r}
+
+data <- data.frame(Gender, Age, Income, Education, HomeOwner, Retired)
+
+```
+
+# Summary and structure of the dataset
+
+```{r}
+
+summary(data)
+str(data)
+
+```
+
+
+```{r}
+
+# Convert 'HomeOwner' from character to factor with levels "No" and "Yes"
+data$HomeOwner <- factor(data$HomeOwner, levels = c("No", "Yes"))
+
+# Show structure of 'HomeOwner' after conversion
+str(data$HomeOwner)
+
+data$Retired <- factor(data$HomeOwner, levels = c("No", "Yes"))
+
+
+
+```
+
+
+```{r}
+
+# Frequency table for categorical variables
+table(data$Gender)
+table(data$Education)
+table(data$HomeOwner)
+table(data$Retired)
+
+```
+
+# Created histogram and box plot to check for normality and outliers.
+```{r}
+
+# Histograms for Age and Income
+par(mfrow=c(1,2))  # Arrange plots in one row, two columns
+# Histogram for Age
+hist(data$Age, 
+     main = "Age Distribution", 
+     xlab = "Age", 
+     ylab = "Frequency",
+     col = "skyblue",  # Histogram color
+     border = "black"  # Border color
+)
+
+# Histogram for Income
+hist(data$Income, 
+     main = "Income Distribution", 
+     xlab = "Income", 
+     ylab = "Frequency",
+     col = "lightgreen",  # Histogram color
+     border = "black"     # Border color
+)
+
+
+# Box plot for Age
+boxplot(data$Age,
+        main = "Box Plot of Age",
+        ylab = "Age",
+        col = "skyblue",  # Box color
+        border = "black", # Border color
+        horizontal = FALSE  # Vertical box plot
+)
+
+# Box plot for Income
+boxplot(data$Income,
+        main = "Box Plot of Income",
+        ylab = "Income",
+        col = "lightgreen",  # Box color
+        border = "black",    # Border color
+        horizontal = FALSE   # Vertical box plot
+)
+
+```
+# Barplots to explore visually the categorical variables.
+
+```{r}
+
+# Bar plots for categorical variables
+par(mfrow=c(2,2))  # Arrange plots in a 2x2 grid
+barplot(table(data$Gender), main="Gender Distribution")
+barplot(table(data$Education), main="Education Level")
+barplot(table(data$HomeOwner), main="Home Ownership")
+barplot(table(data$Retired), main="Retirement Status")
+
+
+
+
+
+```
+
+
+```{r}
+
+# Model 1: Income ~ Age
+model1 <- lm(Age ~ Age, data = data)
+
+# Summary of the model
+summary(model1)
+
+str(data)
+
+```
+
+
+```{r}
+
+
+# Model 2: Income ~ Age + Gender
+model2 <- lm(Income ~ Age + Gender, data = data)
+
+# Summary of the model
+summary(model2)
+
+
+```
+
+
+```{r}
+
+
+
+# Model 3: HomeOwner ~ Age + Income + Education
+model3 <- glm(HomeOwner ~ Age + Income + Education, data = data, family = binomial)
+
+# Summary of the model
+summary(model3)
+
+
+
+```
+
+
+
+```{r}
+
+# Model 4: Retired ~ Age + Income + Gender + Education
+model4 <- glm(Retired ~ Age + Income + Gender + Education, data = data, family = binomial)
+
+# Summary of the model
+summary(model4)
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

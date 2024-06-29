@@ -16,93 +16,93 @@
   {
     "objectID": "starter-analysis-exercise/products/report/starter-analysis-report.html",
     "href": "starter-analysis-exercise/products/report/starter-analysis-report.html",
-    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "title": "Starter Exercise",
     "section": "",
-    "text": "The structure below is one possible setup for a data analysis project (including the course project). For a manuscript, adjust as needed. You don’t need to have exactly these sections, but the content covering those sections should be addressed.\nThis uses MS Word as output format. See here for more information. You can switch to other formats, like html or pdf. See the Quarto documentation for other formats."
+    "text": "** This exercise asked us to use a github template to get familiar with the process of working with team members and sharing and updated one anothers files. **"
   },
   {
     "objectID": "starter-analysis-exercise/products/report/starter-analysis-report.html#general-background-information",
     "href": "starter-analysis-exercise/products/report/starter-analysis-report.html#general-background-information",
-    "title": "Manuscript/Report Template for a Data Analysis Project",
-    "section": "2.1 General Background Information",
-    "text": "2.1 General Background Information\nProvide enough background on your topic that others can understand the why and how of your analysis"
+    "title": "Starter Exercise",
+    "section": "General Background Information",
+    "text": "General Background Information\n** We were given a spreadsheet and asked to contribute 2 columns. one had to be numeric and the other categorical. **"
   },
   {
     "objectID": "starter-analysis-exercise/products/report/starter-analysis-report.html#description-of-data-and-data-source",
     "href": "starter-analysis-exercise/products/report/starter-analysis-report.html#description-of-data-and-data-source",
-    "title": "Manuscript/Report Template for a Data Analysis Project",
-    "section": "2.2 Description of data and data source",
-    "text": "2.2 Description of data and data source\nDescribe what the data is, what it contains, where it is from, etc. Eventually this might be part of a methods section."
+    "title": "Starter Exercise",
+    "section": "Description of data and data source",
+    "text": "Description of data and data source\n** The data is small spreadsheet with 3 different variables. We added two variables of our own. one numerical and the other categorical. **"
   },
   {
     "objectID": "starter-analysis-exercise/products/report/starter-analysis-report.html#questionshypotheses-to-be-addressed",
     "href": "starter-analysis-exercise/products/report/starter-analysis-report.html#questionshypotheses-to-be-addressed",
-    "title": "Manuscript/Report Template for a Data Analysis Project",
-    "section": "2.3 Questions/Hypotheses to be addressed",
-    "text": "2.3 Questions/Hypotheses to be addressed\nState the research questions you plan to answer with this analysis.\nTo cite other work (important everywhere, but likely happens first in introduction), make sure your references are in the bibtex file specified in the YAML header above (here dataanalysis_template_references.bib) and have the right bibtex key. Then you can include like this:\nExamples of reproducible research projects can for instance be found in (McKay, Ebell, Billings, et al., 2020; McKay, Ebell, Dale, Shen, & Handel, 2020)"
+    "title": "Starter Exercise",
+    "section": "Questions/Hypotheses to be addressed",
+    "text": "Questions/Hypotheses to be addressed\n** We wanted to find out how Height was affected by the different variables. **\nTo cite other work (important everywhere, but likely happens first in introduction), make sure your references are in the bibtex file specified in the YAML header above (here dataanalysis_template_references.bib) and have the right bibtex key. Then you can include like this:\nExamples of reproducible research projects can for instance be found in [@mckay2020; @mckay2020a]"
   },
   {
     "objectID": "starter-analysis-exercise/products/report/starter-analysis-report.html#data-aquisition",
     "href": "starter-analysis-exercise/products/report/starter-analysis-report.html#data-aquisition",
-    "title": "Manuscript/Report Template for a Data Analysis Project",
-    "section": "3.1 Data aquisition",
-    "text": "3.1 Data aquisition\nAs applicable, explain where and how you got the data. If you directly import the data from an online source, you can combine this section with the next."
+    "title": "Starter Exercise",
+    "section": "Data aquisition",
+    "text": "Data aquisition\n** Our data was given to us by a template from our professor. **\nAs applicable, explain where and how you got the data. If you directly import the data from an online source, you can combine this section with the next."
   },
   {
     "objectID": "starter-analysis-exercise/products/report/starter-analysis-report.html#data-import-and-cleaning",
     "href": "starter-analysis-exercise/products/report/starter-analysis-report.html#data-import-and-cleaning",
-    "title": "Manuscript/Report Template for a Data Analysis Project",
-    "section": "3.2 Data import and cleaning",
-    "text": "3.2 Data import and cleaning\nWrite code that reads in the file and cleans it so it’s ready for analysis. Since this will be fairly long code for most datasets, it might be a good idea to have it in one or several R scripts. If that is the case, explain here briefly what kind of cleaning/processing you do, and provide more details and well documented code somewhere (e.g. as supplement in a paper). All materials, including files that contain code, should be commented well so everyone can follow along."
+    "title": "Starter Exercise",
+    "section": "Data import and cleaning",
+    "text": "Data import and cleaning\n** We used code that included removing observations with data entries that could negatively affect our datafile. **\nWrite code that reads in the file and cleans it so it’s ready for analysis. Since this will be fairly long code for most datasets, it might be a good idea to have it in one or several R scripts. If that is the case, explain here briefly what kind of cleaning/processing you do, and provide more details and well documented code somewhere (e.g. as supplement in a paper). All materials, including files that contain code, should be commented well so everyone can follow along."
   },
   {
     "objectID": "starter-analysis-exercise/products/report/starter-analysis-report.html#statistical-analysis",
     "href": "starter-analysis-exercise/products/report/starter-analysis-report.html#statistical-analysis",
-    "title": "Manuscript/Report Template for a Data Analysis Project",
-    "section": "3.3 Statistical analysis",
-    "text": "3.3 Statistical analysis\nExplain anything related to your statistical analyses."
+    "title": "Starter Exercise",
+    "section": "Statistical analysis",
+    "text": "Statistical analysis\n** Since our data is very small we couldnt reject any hypothesis that would indicate that height is affected by weight, gender, age, or if they graduated from high school. **"
   },
   {
     "objectID": "starter-analysis-exercise/products/report/starter-analysis-report.html#exploratorydescriptive-analysis",
     "href": "starter-analysis-exercise/products/report/starter-analysis-report.html#exploratorydescriptive-analysis",
-    "title": "Manuscript/Report Template for a Data Analysis Project",
-    "section": "4.1 Exploratory/Descriptive analysis",
-    "text": "4.1 Exploratory/Descriptive analysis\nUse a combination of text/tables/figures to explore and describe your data. Show the most important descriptive results here. Additional ones should go in the supplement. Even more can be in the R and Quarto files that are part of your project.\nTable 1 shows a summary of the data.\nNote the loading of the data providing a relative path using the ../../ notation. (Two dots means a folder up). You never want to specify an absolute path like C:\\ahandel\\myproject\\results\\ because if you share this with someone, it won’t work for them since they don’t have that path. You can also use the here R package to create paths. See examples of that below. I recommend the here package, but I’m showing the other approach here just in case you encounter it.\n\n\n\n\nTable 1: Data summary table.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_type\nskim_variable\nn_missing\ncomplete_rate\nfactor.ordered\nfactor.n_unique\nfactor.top_counts\nnumeric.mean\nnumeric.sd\nnumeric.p0\nnumeric.p25\nnumeric.p50\nnumeric.p75\nnumeric.p100\nnumeric.hist\n\n\n\n\nfactor\nGender\n0\n1\nFALSE\n3\nM: 4, F: 3, O: 2\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nnumeric\nHeight\n0\n1\nNA\nNA\nNA\n165.66667\n15.97655\n133\n156\n166\n178\n183\n▂▁▃▃▇\n\n\nnumeric\nWeight\n0\n1\nNA\nNA\nNA\n70.11111\n21.24526\n45\n55\n70\n80\n110\n▇▂▃▂▂"
+    "title": "Starter Exercise",
+    "section": "Exploratory/Descriptive analysis",
+    "text": "Exploratory/Descriptive analysis\n** Using scatterplots and boxplots, our aim was to look at the data and find out how normal it was. and to help identify any outliers. **\nUse a combination of text/tables/figures to explore and describe your data. Show the most important descriptive results here. Additional ones should go in the supplement. Even more can be in the R and Quarto files that are part of your project.\n?@tbl-summarytable shows a summary of the data.\nNote the loading of the data providing a relative path using the ../../ notation. (Two dots means a folder up). You never want to specify an absolute path like C:\\ahandel\\myproject\\results\\ because if you share this with someone, it won’t work for them since they don’t have that path. You can also use the here R package to create paths. See examples of that below. I recommend the here package, but I’m showing the other approach here just in case you encounter it.\n\nlibrary(here)\n\nhere() starts at C:/Users/Leonel/Desktop/MSDA/MS Data Analytics/Current Class/DA 6833/Practicum 2 Github/leonelsalazar-P2-portfolio\n\n#| label: tbl-summarytable\n#| tbl-cap: \"Data summary table.\"\n#| echo: FALSE\nresulttable=readRDS(\"../../results/tables-files/summarytable.rds\")\nknitr::kable(resulttable)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_type\nskim_variable\nn_missing\ncomplete_rate\nfactor.ordered\nfactor.n_unique\nfactor.top_counts\nnumeric.mean\nnumeric.sd\nnumeric.p0\nnumeric.p25\nnumeric.p50\nnumeric.p75\nnumeric.p100\nnumeric.hist\n\n\n\n\nfactor\nGender\n0\n1\nFALSE\n3\nM: 4, F: 3, O: 2\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nnumeric\nHeight\n0\n1\nNA\nNA\nNA\n165.66667\n15.97655\n133\n156\n166\n178\n183\n▂▁▃▃▇\n\n\nnumeric\nWeight\n0\n1\nNA\nNA\nNA\n70.11111\n21.24526\n45\n55\n70\n80\n110\n▇▂▃▂▂"
   },
   {
     "objectID": "starter-analysis-exercise/products/report/starter-analysis-report.html#basic-statistical-analysis",
     "href": "starter-analysis-exercise/products/report/starter-analysis-report.html#basic-statistical-analysis",
-    "title": "Manuscript/Report Template for a Data Analysis Project",
-    "section": "4.2 Basic statistical analysis",
-    "text": "4.2 Basic statistical analysis\nTo get some further insight into your data, if reasonable you could compute simple statistics (e.g. simple models with 1 predictor) to look for associations between your outcome(s) and each individual predictor variable. Though note that unless you pre-specified the outcome and main exposure, any “p&lt;0.05 means statistical significance” interpretation is not valid.\nFigure 1 shows a scatterplot figure produced by one of the R scripts.\n\n\n\n\n\n\n\n\nFigure 1: Height and weight stratified by gender."
+    "title": "Starter Exercise",
+    "section": "Basic statistical analysis",
+    "text": "Basic statistical analysis\nTo get some further insight into your data, if reasonable you could compute simple statistics (e.g. simple models with 1 predictor) to look for associations between your outcome(s) and each individual predictor variable. Though note that unless you pre-specified the outcome and main exposure, any “p&lt;0.05 means statistical significance” interpretation is not valid.\nfig-result shows a scatterplot figure produced by one of the R scripts.\n\n\n\n\n\n\n\n\nFigure 1: Height and weight stratified by gender."
   },
   {
     "objectID": "starter-analysis-exercise/products/report/starter-analysis-report.html#full-analysis",
     "href": "starter-analysis-exercise/products/report/starter-analysis-report.html#full-analysis",
-    "title": "Manuscript/Report Template for a Data Analysis Project",
-    "section": "4.3 Full analysis",
-    "text": "4.3 Full analysis\nUse one or several suitable statistical/machine learning methods to analyze your data and to produce meaningful figures, tables, etc. This might again be code that is best placed in one or several separate R scripts that need to be well documented. You want the code to produce figures and data ready for display as tables, and save those. Then you load them here.\nExample Table 2 shows a summary of a linear model fit.\n\n\n\n\nTable 2: Linear model fit table.\n\n\n\n\n\n\nterm\nestimate\nstd.error\nstatistic\np.value\n\n\n\n\n(Intercept)\n149.2726967\n23.3823360\n6.3839942\n0.0013962\n\n\nWeight\n0.2623972\n0.3512436\n0.7470519\n0.4886517\n\n\nGenderM\n-2.1244913\n15.5488953\n-0.1366329\n0.8966520\n\n\nGenderO\n-4.7644739\n19.0114155\n-0.2506112\n0.8120871"
+    "title": "Starter Exercise",
+    "section": "Full analysis",
+    "text": "Full analysis\nUse one or several suitable statistical/machine learning methods to analyze your data and to produce meaningful figures, tables, etc. This might again be code that is best placed in one or several separate R scripts that need to be well documented. You want the code to produce figures and data ready for display as tables, and save those. Then you load them here.\nExample tbl-resulttable2 shows a summary of a linear model fit.\n\n\n\n\nTable 1: Linear model fit table.\n\n\n\n\n\n\nterm\nestimate\nstd.error\nstatistic\np.value\n\n\n\n\n(Intercept)\n149.2726967\n23.3823360\n6.3839942\n0.0013962\n\n\nWeight\n0.2623972\n0.3512436\n0.7470519\n0.4886517\n\n\nGenderM\n-2.1244913\n15.5488953\n-0.1366329\n0.8966520\n\n\nGenderO\n-4.7644739\n19.0114155\n-0.2506112\n0.8120871"
   },
   {
     "objectID": "starter-analysis-exercise/products/report/starter-analysis-report.html#summary-and-interpretation",
     "href": "starter-analysis-exercise/products/report/starter-analysis-report.html#summary-and-interpretation",
-    "title": "Manuscript/Report Template for a Data Analysis Project",
-    "section": "5.1 Summary and Interpretation",
-    "text": "5.1 Summary and Interpretation\nSummarize what you did, what you found and what it means."
+    "title": "Starter Exercise",
+    "section": "Summary and Interpretation",
+    "text": "Summary and Interpretation\n** After running various linear models we can see how neither of the variables affect height. the p values are over .05 and show they are not significant in determing a persons height in this data set. **\nSummarize what you did, what you found and what it means."
   },
   {
     "objectID": "starter-analysis-exercise/products/report/starter-analysis-report.html#strengths-and-limitations",
     "href": "starter-analysis-exercise/products/report/starter-analysis-report.html#strengths-and-limitations",
-    "title": "Manuscript/Report Template for a Data Analysis Project",
-    "section": "5.2 Strengths and Limitations",
-    "text": "5.2 Strengths and Limitations\nDiscuss what you perceive as strengths and limitations of your analysis."
+    "title": "Starter Exercise",
+    "section": "Strengths and Limitations",
+    "text": "Strengths and Limitations\n** our data is very limited so our results will be poorly fitted and most likely wrong ** Discuss what you perceive as strengths and limitations of your analysis."
   },
   {
     "objectID": "starter-analysis-exercise/products/report/starter-analysis-report.html#conclusions",
     "href": "starter-analysis-exercise/products/report/starter-analysis-report.html#conclusions",
-    "title": "Manuscript/Report Template for a Data Analysis Project",
-    "section": "5.3 Conclusions",
-    "text": "5.3 Conclusions\nWhat are the main take-home messages?\nInclude citations in your Rmd file using bibtex, the list of references will automatically be placed at the end\nThis paper (Leek & Peng, 2015) discusses types of analyses.\nThese papers (McKay, Ebell, Billings, et al., 2020; McKay, Ebell, Dale, et al., 2020) are good examples of papers published using a fully reproducible setup similar to the one shown in this template.\nNote that this cited reference will show up at the end of the document, the reference formatting is determined by the CSL file specified in the YAML header. Many more style files for almost any journal are available. You also specify the location of your bibtex reference file in the YAML. You can call your reference file anything you like, I just used the generic word references.bib but giving it a more descriptive name is probably better."
+    "title": "Starter Exercise",
+    "section": "Conclusions",
+    "text": "Conclusions\n** Not sure what this is asking but cleaning data and trying to make sure that it is cleaned properly and honestly is important. Making sure to have a good enough sized data set is also important. The whole process of working together needs to be taken seriously and the effort needs to be put in. one person can stop another person from completing their task. **"
   },
   {
     "objectID": "starter-analysis-exercise/data/readme.html",
@@ -320,5 +320,96 @@
     "title": "R Coding Exercise",
     "section": "Plotting",
     "text": "Plotting\n\nAdjusted Poll as a Function for Trump & Clinton\n\n# Perform linear regression\nregression = lm(adjusted_polls$adjpoll_clinton ~ adjusted_polls$adjpoll_trump)\n\n# Function to calculate R-squared\nrsq &lt;- function() summary(regression)$r.squared\nr_square = round(rsq(), 3)\n\n# Get regression coefficients\ncoeff = round(summary(regression)$coefficients[2, 1], 3)\ny_int = round(summary(regression)$coefficients[1, 1], 3)\n\n# Create plot\nplot(\n  adjusted_polls$adjpoll_trump,\n  adjusted_polls$adjpoll_clinton,\n  main='Adjusted Polls Trump & Clinton',\n  xlab='Adjusted Trump Poll',\n  ylab='Adjusted Clinton Poll',\n  col='lightgreen',\n  bg='olivedrab3',\n  pch = 21\n)\n\n# Add regression equation and R-squared value to the plot\nrsq_str = expression(paste(\"R\"^2, \": \"))\nrsq_str = \"r2: \"\ntext(47, 55, paste0('y = ', coeff, 'x + ', y_int), cex=0.75)\ntext(47, 54, bquote(.(rsq_str) * .(r_square)), cex=0.75)\n\n# Add regression line\nabline(regression, col='darkblue', lwd=1.75)\n\n\n\n\n\n\n\n\n\n\nRaw Polls as a Function for Trump & Clinton\n\n# Perform linear regression\nregression = lm(raw_polls$rawpoll_clinton ~ raw_polls$rawpoll_trump)\n\n# Function to calculate R-squared\nrsq &lt;- function() summary(regression)$r.squared\nr_square = round(rsq(), 3)\n\n# Get regression coefficients\ncoeff = round(summary(regression)$coefficients[2, 1], 9)\ny_int = round(summary(regression)$coefficients[1, 1], 3)\n\n# Create plot\nplot(\n  raw_polls$rawpoll_trump,\n  raw_polls$rawpoll_clinton,\n  main='Raw Polls Trump & Clinton',\n  xlab='Raw Trump Poll',\n  ylab='Raw Clinton Poll',\n  col='lightgreen',\n  bg='olivedrab3',\n  pch = 21\n)\n\n# Add regression equation and R-squared value to the plot\nrsq_str = expression(paste(\"R\"^2, \": \"))\nrsq_str = \"r2: \"\ntext(47, 55, paste0('y = ', coeff, 'x + ', y_int), cex=0.75)\ntext(47, 53, bquote(.(rsq_str) * .(r_square)), cex=0.75)\n\n# Add regression line\nabline(regression, col='darkblue', lwd=1.75)\n\n\n\n\n\n\n\n\n****************************interpret the clinton and trump raw results************************************************ There exists a positive correlation: the slight positive correlation between Trumps and Clinton’s poll numbers, meaning that as Trump’s poll numbers increase, Clinton’s poll numbers tend to increase slightly as well. The low R^2(0.106) suggest that approximatley 10.6% of the variation in Clinton’s poll numbers can be explained by Trumps poll numbers. Indicative of a week positive realtionship between two variables. #Additional Data Processing to determine any missing data or NA #None Found\n\nmiss_adj_polls=vote_data%&gt;%\n  filter(is.na(adjpoll_clinton))\nhead(miss_adj_polls)\n\n [1] state            startdate        enddate          pollster        \n [5] grade            samplesize       population       rawpoll_clinton \n [9] rawpoll_trump    rawpoll_johnson  rawpoll_mcmullin adjpoll_clinton \n[13] adjpoll_trump    adjpoll_johnson  adjpoll_mcmullin\n&lt;0 rows&gt; (or 0-length row.names)\n\n\n#Additional Data Processing to determine any missing data or NA #None Found\n\nmiss_adj_polls=vote_data%&gt;%\n  filter(is.na(adjpoll_trump))\nhead(miss_adj_polls)\n\n [1] state            startdate        enddate          pollster        \n [5] grade            samplesize       population       rawpoll_clinton \n [9] rawpoll_trump    rawpoll_johnson  rawpoll_mcmullin adjpoll_clinton \n[13] adjpoll_trump    adjpoll_johnson  adjpoll_mcmullin\n&lt;0 rows&gt; (or 0-length row.names)\n\n\n\nmiss_raw_polls=vote_data%&gt;%\n  filter(is.na(rawpoll_clinton))\nhead(miss_raw_polls)\n\n [1] state            startdate        enddate          pollster        \n [5] grade            samplesize       population       rawpoll_clinton \n [9] rawpoll_trump    rawpoll_johnson  rawpoll_mcmullin adjpoll_clinton \n[13] adjpoll_trump    adjpoll_johnson  adjpoll_mcmullin\n&lt;0 rows&gt; (or 0-length row.names)\n\n\n\nmiss_raw_polls=vote_data%&gt;%\n  filter(is.na(rawpoll_trump))\nhead(miss_raw_polls)\n\n [1] state            startdate        enddate          pollster        \n [5] grade            samplesize       population       rawpoll_clinton \n [9] rawpoll_trump    rawpoll_johnson  rawpoll_mcmullin adjpoll_clinton \n[13] adjpoll_trump    adjpoll_johnson  adjpoll_mcmullin\n&lt;0 rows&gt; (or 0-length row.names)\n\n\nFit Adjusted Poll for Clinton and Trump\n\n#Log Regression\nfit1 = lm(adjpoll_clinton ~ log(adjpoll_trump), data=adjusted_polls)\nsummary(fit1)\n\n\nCall:\nlm(formula = adjpoll_clinton ~ log(adjpoll_trump), data = adjusted_polls)\n\nResiduals:\n   Min     1Q Median     3Q    Max \n-8.351 -1.510 -0.023  1.522 12.874 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)         15.4791     3.2342   4.786 1.93e-06 ***\nlog(adjpoll_trump)   7.8899     0.8677   9.093  &lt; 2e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 2.37 on 1104 degrees of freedom\nMultiple R-squared:  0.06968,   Adjusted R-squared:  0.06884 \nF-statistic: 82.69 on 1 and 1104 DF,  p-value: &lt; 2.2e-16\n\n\n\n# Linear regression\nfit1 = lm(adjpoll_clinton ~ adjpoll_trump, data=adjusted_polls)\nsummary(fit1)\n\n\nCall:\nlm(formula = adjpoll_clinton ~ adjpoll_trump, data = adjusted_polls)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-8.3185 -1.5035 -0.0313  1.5211 12.8768 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)   36.63686    0.89965  40.724   &lt;2e-16 ***\nadjpoll_trump  0.19784    0.02152   9.194   &lt;2e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 2.368 on 1104 degrees of freedom\nMultiple R-squared:  0.07112,   Adjusted R-squared:  0.07028 \nF-statistic: 84.53 on 1 and 1104 DF,  p-value: &lt; 2.2e-16\n\n# Polynomial regression of degree 2\nfit2 = lm(adjpoll_clinton ~ poly(adjpoll_trump, 2), data=adjusted_polls)\nsummary(fit2)\n\n\nCall:\nlm(formula = adjpoll_clinton ~ poly(adjpoll_trump, 2), data = adjusted_polls)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-8.2349 -1.4850 -0.0319  1.5434 12.8397 \n\nCoefficients:\n                        Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)             44.88205    0.07118 630.515   &lt;2e-16 ***\npoly(adjpoll_trump, 2)1 21.77507    2.36731   9.198   &lt;2e-16 ***\npoly(adjpoll_trump, 2)2  3.41199    2.36731   1.441     0.15    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 2.367 on 1103 degrees of freedom\nMultiple R-squared:  0.07286,   Adjusted R-squared:  0.07118 \nF-statistic: 43.34 on 2 and 1103 DF,  p-value: &lt; 2.2e-16\n\n# Plot the data\nplot(\n  adjusted_polls$adjpoll_trump,\n  adjusted_polls$adjpoll_clinton,\n  main='Adjusted Polls: Linear and Polynomial Regression',\n  xlab='adjpoll_trump',\n  ylab='adjpoll_clinton',\n  col='lightgreen',\n  bg='olivedrab3',\n  pch = 21\n)\n\n# Add linear regression line\nabline(fit1, col='red', lwd=2)\n\n# Add polynomial regression line\n# Generate a sequence of values for adjpoll_trump for the polynomial line\nnew_data &lt;- data.frame(adjpoll_trump = seq(min(adjusted_polls$adjpoll_trump), max(adjusted_polls$adjpoll_trump), length.out=100))\n# Predict the values of adjpoll_clinton for the generated sequence\npoly_pred &lt;- predict(fit2, new_data)\n# Add the polynomial regression line to the plot\nlines(new_data$adjpoll_trump, poly_pred, col='blue', lwd=2)\n\n# Add a legend to differentiate the lines\nlegend(\"topright\", legend=c(\"Linear Fit\", \"Polynomial Fit (degree 2)\"), col=c(\"red\", \"blue\"), lwd=2)\n\n\n\n\n\n\n\n\n\n\nFit Raw Poll\n\n#Log Regression\nfit2 = lm(rawpoll_clinton ~ log(rawpoll_trump), data=vote_data)\nsummary(fit2)\n\n\nCall:\nlm(formula = rawpoll_clinton ~ log(rawpoll_trump), data = vote_data)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-11.6571  -2.1174  -0.1328   2.0872  15.4526 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)         10.6365     3.0074   3.537 0.000422 ***\nlog(rawpoll_trump)   9.0804     0.8183  11.096  &lt; 2e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 3.12 on 1104 degrees of freedom\nMultiple R-squared:  0.1003,    Adjusted R-squared:  0.09952 \nF-statistic: 123.1 on 1 and 1104 DF,  p-value: &lt; 2.2e-16\n\n\n\n# Linear regression\nfit1 = lm(rawpoll_clinton ~ rawpoll_trump, data=raw_polls)\nsummary(fit1)\n\n\nCall:\nlm(formula = rawpoll_clinton ~ rawpoll_trump, data = raw_polls)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-11.6669  -2.0756  -0.0813   2.0966  15.3852 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)   34.68457    0.81985   42.31   &lt;2e-16 ***\nrawpoll_trump  0.23478    0.02055   11.43   &lt;2e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 3.11 on 1104 degrees of freedom\nMultiple R-squared:  0.1057,    Adjusted R-squared:  0.1049 \nF-statistic: 130.5 on 1 and 1104 DF,  p-value: &lt; 2.2e-16\n\n# Polynomial regression of degree 2\nfit2 = lm(rawpoll_clinton ~ poly(rawpoll_trump, 2), data=raw_polls)\nsummary(fit2)\n\n\nCall:\nlm(formula = rawpoll_clinton ~ poly(rawpoll_trump, 2), data = raw_polls)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-11.9762  -1.9498  -0.0539   1.9951  14.6987 \n\nCoefficients:\n                        Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)             43.98993    0.09277 474.176  &lt; 2e-16 ***\npoly(rawpoll_trump, 2)1 35.53508    3.08525  11.518  &lt; 2e-16 ***\npoly(rawpoll_trump, 2)2 13.46627    3.08525   4.365 1.39e-05 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 3.085 on 1103 degrees of freedom\nMultiple R-squared:  0.1209,    Adjusted R-squared:  0.1193 \nF-statistic: 75.85 on 2 and 1103 DF,  p-value: &lt; 2.2e-16\n\n# Plot the data\nplot(\n  raw_polls$rawpoll_trump,\n  raw_polls$rawpoll_clinton,\n  main='Raw Polls: Linear and Polynomial Regression',\n  xlab='rawpoll_trump',\n  ylab='rawpoll_clinton',\n  col='lightgreen',\n  bg='olivedrab3',\n  pch = 21\n)\n\n# Add linear regression line\nabline(fit1, col='red', lwd=2)\n\n# Add polynomial regression line\n# Generate a sequence of values for rawpoll_trump for the polynomial line\nnew_data &lt;- data.frame(rawpoll_trump = seq(min(raw_polls$rawpoll_trump), max(raw_polls$rawpoll_trump), length.out=100))\n# Predict the values of rawpoll_clinton for the generated sequence\npoly_pred &lt;- predict(fit2, new_data)\n# Add the polynomial regression line to the plot\nlines(new_data$rawpoll_trump, poly_pred, col='blue', lwd=2)\n\n# Add a legend to differentiate the lines\nlegend(\"topright\", legend=c(\"Linear Fit\", \"Polynomial Fit (degree 2)\"), col=c(\"red\", \"blue\"), lwd=2)\n\n\n\n\n\n\n\n\n*************************Conclusion******************************* There exists a week positive relationship between the raw poll numbers for Trump and Clinton. There maybe other possible factors other than Trump’s poll numbers play a more significant role in determing Clinton’s poll numbers."
+  },
+  {
+    "objectID": "starter-analysis-exercise/products/report/starter-analysis-report2.html",
+    "href": "starter-analysis-exercise/products/report/starter-analysis-report2.html",
+    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "section": "",
+    "text": "** This exercise asked us to use a github template to get familiar with the process of working with team members and sharing and updated one anothers files. **"
+  },
+  {
+    "objectID": "starter-analysis-exercise/products/report/starter-analysis-report2.html#general-background-information",
+    "href": "starter-analysis-exercise/products/report/starter-analysis-report2.html#general-background-information",
+    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "section": "2.1 General Background Information",
+    "text": "2.1 General Background Information\n** We were given a spreadsheet and asked to contribute 2 columns. one had to be numeric and the other categorical. **"
+  },
+  {
+    "objectID": "starter-analysis-exercise/products/report/starter-analysis-report2.html#description-of-data-and-data-source",
+    "href": "starter-analysis-exercise/products/report/starter-analysis-report2.html#description-of-data-and-data-source",
+    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "section": "2.2 Description of data and data source",
+    "text": "2.2 Description of data and data source\n** The data is small spreadsheet with 3 different variables. We added two variables of our own. one numerical and the other categorical. **"
+  },
+  {
+    "objectID": "starter-analysis-exercise/products/report/starter-analysis-report2.html#questionshypotheses-to-be-addressed",
+    "href": "starter-analysis-exercise/products/report/starter-analysis-report2.html#questionshypotheses-to-be-addressed",
+    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "section": "2.3 Questions/Hypotheses to be addressed",
+    "text": "2.3 Questions/Hypotheses to be addressed\n** We wanted to find out how Height was affected by the different variables. **\nTo cite other work (important everywhere, but likely happens first in introduction), make sure your references are in the bibtex file specified in the YAML header above (here dataanalysis_template_references.bib) and have the right bibtex key. Then you can include like this:\nExamples of reproducible research projects can for instance be found in [@mckay2020; @mckay2020a]"
+  },
+  {
+    "objectID": "starter-analysis-exercise/products/report/starter-analysis-report2.html#data-aquisition",
+    "href": "starter-analysis-exercise/products/report/starter-analysis-report2.html#data-aquisition",
+    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "section": "3.1 Data aquisition",
+    "text": "3.1 Data aquisition\n** Our data was given to us by a template from our professor. **\nAs applicable, explain where and how you got the data. If you directly import the data from an online source, you can combine this section with the next."
+  },
+  {
+    "objectID": "starter-analysis-exercise/products/report/starter-analysis-report2.html#data-import-and-cleaning",
+    "href": "starter-analysis-exercise/products/report/starter-analysis-report2.html#data-import-and-cleaning",
+    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "section": "3.2 Data import and cleaning",
+    "text": "3.2 Data import and cleaning\n** We used code that included removing observations with data entries that could negatively affect our datafile. **\nWrite code that reads in the file and cleans it so it’s ready for analysis. Since this will be fairly long code for most datasets, it might be a good idea to have it in one or several R scripts. If that is the case, explain here briefly what kind of cleaning/processing you do, and provide more details and well documented code somewhere (e.g. as supplement in a paper). All materials, including files that contain code, should be commented well so everyone can follow along."
+  },
+  {
+    "objectID": "starter-analysis-exercise/products/report/starter-analysis-report2.html#statistical-analysis",
+    "href": "starter-analysis-exercise/products/report/starter-analysis-report2.html#statistical-analysis",
+    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "section": "3.3 Statistical analysis",
+    "text": "3.3 Statistical analysis\n** Since our data is very small we couldnt reject any hypothesis that would indicate that height is affected by weight, gender, age, or if they graduated from high school. **"
+  },
+  {
+    "objectID": "starter-analysis-exercise/products/report/starter-analysis-report2.html#exploratorydescriptive-analysis",
+    "href": "starter-analysis-exercise/products/report/starter-analysis-report2.html#exploratorydescriptive-analysis",
+    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "section": "4.1 Exploratory/Descriptive analysis",
+    "text": "4.1 Exploratory/Descriptive analysis\n** Using scatterplots and boxplots, our aim was to look at the data and find out how normal it was. and to help identify any outliers. **\nUse a combination of text/tables/figures to explore and describe your data. Show the most important descriptive results here. Additional ones should go in the supplement. Even more can be in the R and Quarto files that are part of your project.\nTable 1 shows a summary of the data.\nNote the loading of the data providing a relative path using the ../../ notation. (Two dots means a folder up). You never want to specify an absolute path like C:\\ahandel\\myproject\\results\\ because if you share this with someone, it won’t work for them since they don’t have that path. You can also use the here R package to create paths. See examples of that below. I recommend the here package, but I’m showing the other approach here just in case you encounter it.\n\n\n\n\nTable 1: Data summary table.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_type\nskim_variable\nn_missing\ncomplete_rate\nfactor.ordered\nfactor.n_unique\nfactor.top_counts\nnumeric.mean\nnumeric.sd\nnumeric.p0\nnumeric.p25\nnumeric.p50\nnumeric.p75\nnumeric.p100\nnumeric.hist\n\n\n\n\nfactor\nGender\n0\n1\nFALSE\n3\nM: 4, F: 3, O: 2\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nnumeric\nHeight\n0\n1\nNA\nNA\nNA\n165.66667\n15.97655\n133\n156\n166\n178\n183\n▂▁▃▃▇\n\n\nnumeric\nWeight\n0\n1\nNA\nNA\nNA\n70.11111\n21.24526\n45\n55\n70\n80\n110\n▇▂▃▂▂"
+  },
+  {
+    "objectID": "starter-analysis-exercise/products/report/starter-analysis-report2.html#basic-statistical-analysis",
+    "href": "starter-analysis-exercise/products/report/starter-analysis-report2.html#basic-statistical-analysis",
+    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "section": "4.2 Basic statistical analysis",
+    "text": "4.2 Basic statistical analysis\nTo get some further insight into your data, if reasonable you could compute simple statistics (e.g. simple models with 1 predictor) to look for associations between your outcome(s) and each individual predictor variable. Though note that unless you pre-specified the outcome and main exposure, any “p&lt;0.05 means statistical significance” interpretation is not valid.\nfig-result shows a scatterplot figure produced by one of the R scripts.\n\n\n\n\n\n\n\n\nFigure 1: Height and weight stratified by gender."
+  },
+  {
+    "objectID": "starter-analysis-exercise/products/report/starter-analysis-report2.html#full-analysis",
+    "href": "starter-analysis-exercise/products/report/starter-analysis-report2.html#full-analysis",
+    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "section": "4.3 Full analysis",
+    "text": "4.3 Full analysis\nUse one or several suitable statistical/machine learning methods to analyze your data and to produce meaningful figures, tables, etc. This might again be code that is best placed in one or several separate R scripts that need to be well documented. You want the code to produce figures and data ready for display as tables, and save those. Then you load them here.\nExample tbl-resulttable2 shows a summary of a linear model fit.\n\n\n\n\nTable 2: Linear model fit table.\n\n\n\n\n\n\nterm\nestimate\nstd.error\nstatistic\np.value\n\n\n\n\n(Intercept)\n149.2726967\n23.3823360\n6.3839942\n0.0013962\n\n\nWeight\n0.2623972\n0.3512436\n0.7470519\n0.4886517\n\n\nGenderM\n-2.1244913\n15.5488953\n-0.1366329\n0.8966520\n\n\nGenderO\n-4.7644739\n19.0114155\n-0.2506112\n0.8120871"
+  },
+  {
+    "objectID": "starter-analysis-exercise/products/report/starter-analysis-report2.html#summary-and-interpretation",
+    "href": "starter-analysis-exercise/products/report/starter-analysis-report2.html#summary-and-interpretation",
+    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "section": "5.1 Summary and Interpretation",
+    "text": "5.1 Summary and Interpretation\n** After running various linear models we can see how neither of the variables affect height. the p values are over .05 and show they are not significant in determing a persons height in this data set. **\nSummarize what you did, what you found and what it means."
+  },
+  {
+    "objectID": "starter-analysis-exercise/products/report/starter-analysis-report2.html#strengths-and-limitations",
+    "href": "starter-analysis-exercise/products/report/starter-analysis-report2.html#strengths-and-limitations",
+    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "section": "5.2 Strengths and Limitations",
+    "text": "5.2 Strengths and Limitations\n** our data is very limited so our results will be poorly fitted and most likely wrong ** Discuss what you perceive as strengths and limitations of your analysis."
+  },
+  {
+    "objectID": "starter-analysis-exercise/products/report/starter-analysis-report2.html#conclusions",
+    "href": "starter-analysis-exercise/products/report/starter-analysis-report2.html#conclusions",
+    "title": "Manuscript/Report Template for a Data Analysis Project",
+    "section": "5.3 Conclusions",
+    "text": "5.3 Conclusions\n** Not sure what this is asking but cleaning data and trying to make sure that it is cleaned properly and honestly is important. Making sure to have a good enough sized data set is also important. The whole process of working together needs to be taken seriously and the effort needs to be put in. one person can stop another person from completing their task. **"
   }
 ]
